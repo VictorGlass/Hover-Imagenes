@@ -1,0 +1,29 @@
+body {
+    background-color: #000000;
+}
+
+.container {
+    
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10rem;
+    padding-left: 20rem;
+}
+
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    
+    border: 1px solid white;
+    transition: all ease-in-out 0.6s;
+}
+.container img:hover {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
